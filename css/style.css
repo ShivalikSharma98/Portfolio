@@ -1,0 +1,136 @@
+/* Universal styles */
+*, *::before, *::after {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+body {
+    height: 100vh;
+    margin: 0 auto;
+}
+/* End universal styles */
+
+/* Styles for name and hamburger nav */
+.header-name-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-name-wrapper h2 {
+    font-size: 30px;
+}
+#header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #119da4;
+    height: 10vh;
+}
+.header-hamburger-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 30px;
+}
+.hamburger-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 100%;
+}
+.hamburger {
+    min-width: 100%;
+    min-height: 100%;
+}
+/* End styles for Header */
+
+/* Styles for Footer */
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: #582f0e;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.contacts-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+}
+.contact-info {
+    display: flex;
+    color: white;
+    margin: 10px;
+}
+.logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 40px;
+}
+.logo {
+    display: flex;
+    max-width: 100%;
+}
+
+/* End Styles for footer */
+
+/* Styles for Nav */
+.nav-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.nav-links-wrapper {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 28px;
+}
+.nav-links {
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+/* End styles for Nav */
+
+/* Styles for Home */
+.home-page-container {
+    height: 80vh;
+    background-image: url('../assets/glacier.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.title {
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+/* End styles for home */
+
+/* Hide feature */
+.hide {
+    display: none;
+}
+/* End hide feature */
