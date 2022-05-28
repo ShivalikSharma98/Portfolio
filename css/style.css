@@ -4,7 +4,6 @@
     /* border: 1px solid red; */
 }
 body {
-    height: 100vh;
     margin: 0 auto;
 }
 /* End universal styles */
@@ -17,7 +16,11 @@ body {
     align-items: center;
 }
 .header-name-wrapper h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 30px;
+    font-family: 'condiment', cursive;
 }
 #header-container {
     display: flex;
@@ -27,6 +30,7 @@ body {
     padding: 1rem;
     background-color: #119da4;
     height: 10vh;
+    width: 100%;
 }
 .header-hamburger-wrapper {
     display: flex;
@@ -50,7 +54,7 @@ body {
 /* Styles for Footer */
 .footer-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-between;
     height: 10vh;
     background-color: #582f0e;
@@ -60,13 +64,13 @@ body {
 .contacts-wrapper {
     display: flex;
     flex-direction: column;
-    align-items:flex-end;
+    align-items:flex-start;
     justify-content: center;
 }
 .contact-info {
     display: flex;
     color: white;
-    margin: 10px;
+    margin: 5px;
 }
 .logo-wrapper {
     display: flex;
@@ -88,7 +92,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 80vh;
 }
 .nav-links-wrapper {
     height: 60%;
@@ -112,6 +116,7 @@ ul {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    font-family: 'condiment', cursive;
 }
 /* End styles for Nav */
 
@@ -120,7 +125,7 @@ ul {
     display: flex;
     flex-direction: column;
     height: 80vh;
-    background-image: url('../assets/glacier.jpg');
+    background-image: url('../assets/colorado.jpg');
     background-size: cover;
     background-position: center;
     overflow: scroll;
@@ -135,31 +140,33 @@ ul {
     justify-content: center;
     align-items: center;
     font-size: 40px;
+    font-family: 'condiment', cursive;
     height: 100%;
     width: 100%;
-    margin: 40px auto;
+    margin-top: 40px;
 }
 .headshot-quote-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    flex-grow: 1;
 }
 .home-headshot-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
 }
 .headshot {
     border-radius: 50%;
     border: #119da4 3px solid;
+    max-height: 250px;
 }
 .home-quote-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 323px;
+    max-width: 269px;
     max-height: 150px;
 }
 .quote {
@@ -171,11 +178,39 @@ ul {
     padding: 10px;
     font-size: 24px;
     background-color: rgba(245, 245, 245, 0.5);
-    border-radius: 30px;
+    border-radius: 20px;
     border: #582f0e 3px solid;
 }
-
 /* End styles for home */
+
+/* Styles for Bio */
+
+/* End Styles for Bio */
+
+/* Styles for Resume */
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url('../assets/colorado.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: scroll;
+}
+.resume-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resume {
+    height: 100%;
+    width: 100%;
+    opacity: 65%;
+}
+/* End styles for Resume */
 
 /* Hide feature */
 .hide {
