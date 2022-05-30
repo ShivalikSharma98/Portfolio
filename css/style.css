@@ -1,7 +1,7 @@
 /* Universal styles */
 *, *::before, *::after {
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 body {
     margin: 0 auto;
@@ -159,7 +159,7 @@ ul {
 }
 .headshot {
     border-radius: 50%;
-    border: #119da4 3px solid;
+    border: #582f0e 3px solid;
     max-height: 250px;
 }
 .home-quote-wrapper {
@@ -179,12 +179,26 @@ ul {
     font-size: 24px;
     background-color: rgba(245, 245, 245, 0.5);
     border-radius: 20px;
-    border: #582f0e 3px solid;
+    border: #119da4 3px solid;
 }
 /* End styles for home */
 
 /* Styles for Bio */
-
+.bio-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 80vh;
+    overflow: scroll;
+}
+.bio-title-wrapper h2 {
+    font-size: 30px;
+    font-family: 'condiment', cursive;
+}
+.bio {
+    font-size: 24px;
+}
 /* End Styles for Bio */
 
 /* Styles for Resume */
