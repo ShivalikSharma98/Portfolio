@@ -198,7 +198,13 @@ ul {
 }
 .bio {
     font-size: 24px;
+    margin: 10px;
 }
+.gallery-title-wrapper h2 {
+    font-size: 30px;
+    font-family: 'condiment', cursive;
+}
+
 /* End Styles for Bio */
 
 /* Styles for Resume */
