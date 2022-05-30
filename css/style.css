@@ -1,7 +1,7 @@
 /* Universal styles */
 *, *::before, *::after {
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 body {
     margin: 0 auto;
@@ -203,6 +203,24 @@ ul {
 .gallery-title-wrapper h2 {
     font-size: 30px;
     font-family: 'condiment', cursive;
+    margin-bottom: 20px;
+}
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 380px;
+}
+.pictures {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    object-fit: contain;
+}
+.pictures img {
+    display: flex;
+    margin-bottom: 20px;
 }
 
 /* End Styles for Bio */
