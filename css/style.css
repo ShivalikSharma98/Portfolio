@@ -277,12 +277,13 @@ ul {
 	position: absolute;
 	bottom: 0;
 	text-align: justify;
-	height: 60px;
+	height: 70px;
 	margin-bottom: 0px;
 	background-color: rgba(236, 236, 236, 0.75);
 	width: 100%;
 	text-align: left;
 	padding: 10px;
+	overflow: scroll;
 }
 .git-para-a {
 	width: 100%;
