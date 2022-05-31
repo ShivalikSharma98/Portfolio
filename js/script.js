@@ -79,7 +79,7 @@ form.addEventListener('submit', function (event) {
 	names.push(formName);
 	emails.push(formEmail);
 	inbox.push(formMessage);
-	console.log('form submitted');
+	alert('Message Received!');
 });
 
 let names = [];
