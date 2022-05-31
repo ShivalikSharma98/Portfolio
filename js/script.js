@@ -95,3 +95,5 @@ gitBtn.addEventListener('click', function (event) {
 	gitPara.classList.remove('hide');
 	gitPara.classList.add('fade');
 });
+
+// https://dash.generalassemb.ly/projects/eshas-restaurant-3
