@@ -250,6 +250,19 @@ ul {
 }
 /* End styles for Resume */
 
+/* Styles for Message */
+.message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+.message-title-wrapper {
+    font-size: 30px;
+    font-family: 'condiment', cursive;
+}
+/* End styles for Message */
+
 /* Hide feature */
 .hide {
     display: none;
