@@ -36,7 +36,7 @@
 						<li>
 							<a id="projects-link" class="nav-links" href="">Projects</a>
 						</li>
-						<li><a id="message-link" class="nav-links" href="">Message</a></li>
+						<li><a id="message-link" class="nav-links" href="">Contact</a></li>
 					</ul>
 				</section>
 				<section class="home-page-container">
@@ -135,19 +135,24 @@
 
 				<section class="message-container hide">
 					<div class="message-title-wrapper">
-						<h2>Message</h2>
+						<h2>Contact</h2>
 					</div>
-					<form class="form-wrapper">
+					<form
+						action="https://formsubmit.co/shivaliksharma98@gmail.com"
+						method="POST"
+						class="form-wrapper"
+					>
 						<label for="name">Name:</label><br />
-						<input type="text" id="name-box" /><br />
+						<input type="text" name="name" id="name-box" required /><br />
 						<label for="email">Email:</label><br />
-						<input type="text" id="email-box" /><br />
+						<input type="email" name="email" id="email-box" required /><br />
 						<label for="messages">Message:</label><br />
 						<textarea
 							name="messages-box"
 							id="message-box"
 							cols="30"
 							rows="10"
+							required
 						></textarea
 						><br />
 						<button type="submit" id="submit">Submit</button>
