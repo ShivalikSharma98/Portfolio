@@ -71,16 +71,16 @@ messageBtn.addEventListener('click', function (event) {
 	resume.classList.add('hide');
 	projects.classList.add('hide');
 });
-form.addEventListener('submit', function () {
-	// event.preventDefault();
-	// const formName = document.querySelector('#name-box').value;
-	// const formEmail = document.querySelector('#email-box').value;
-	// const formMessage = document.querySelector('#message-box').value;
-	// names.push(formName);
-	// emails.push(formEmail);
-	// inbox.push(formMessage);
-	alert('Message Received!');
-});
+// form.addEventListener('submit', function () {
+// 	// event.preventDefault();
+// 	// const formName = document.querySelector('#name-box').value;
+// 	// const formEmail = document.querySelector('#email-box').value;
+// 	// const formMessage = document.querySelector('#message-box').value;
+// 	// names.push(formName);
+// 	// emails.push(formEmail);
+// 	// inbox.push(formMessage);
+// 	alert('Message Received!');
+// });
 
 // let names = [];
 // let emails = [];
