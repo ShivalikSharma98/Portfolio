@@ -23,6 +23,10 @@ body {
 	background: #fff;
 }
 
+#hidden {
+	color: lightgray;
+}
+
 #page {
 	position: relative;
 	overflow-x: hidden;
